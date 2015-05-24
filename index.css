@@ -4,50 +4,79 @@ Contact: regaldisclaimer@gmail.com for all usage permissions*/
 /*EAFF32 BF9047 FF0000 630CE8 00AEEF*/
 
 html, body {
-	height:100vh;
+	height: 100%;
 	font-family: 'Roboto', sans-serif;
 	font-weight: 300;
 	font-size: 32pt;
 	text-align: center;
 	color: #3B2D38;
 	margin: 0;
+	vertical-align: middle;
 }
 
-a{
+a {
 	text-decoration: none;
 	color: #000;
+	margin: 0;
+	padding: 0;
+	height: 0;
+	width: 0;
 }
 
-#mainDiv{
+p {
+	margin: 0;
+}
+
+h1 {
+	font-size: 48pt;
+	font-weight: 300;
+	margin-top: 5vh;
+	margin-bottom: 2.5vh;
+}
+
+h2 {
+	font-size: 32pt;
+	font-weight: 300;
+}
+
+span {
+	text-align: center;
+}
+
+#mainDiv {
 	margin-left: 5vw;
 	margin-right: 5vw;
 }
 
-#topDiv{
+#topDiv {
 	text-align:center;
 	background-color: #f1f1f1;
 	box-shadow: 0px 5px 5px #888888;
+	width: 90vw;
+	display: inline-block;
 }
 
-#mainBanner{
+#mainBanner {
 	margin-top: 5vh;
-	width: 50vw;
+	width: 54vw;
 }
 
-#headlineDiv{
+#headlineDiv {
 	margin-top: 5vh;
-	padding-bottom: 2.5vh;
+	margin-bottom: 2.5vh;
+
 }
 
-#transitionDiv{
+.transitionDiv {
 }
 
-#transitionP{
-	padding: 1.5vh;
+.transitionP {
+	padding-top: 1.5vh;
+	padding-bottom: 1.5vh;
 }
 
 
-#getButton{
+#getButton {
 	width: 90vw;
 	padding-top: 1.5vh;
 	padding-bottom: 1.5vh;
@@ -56,31 +85,70 @@ a{
 	transition: background-color 1s;
 }
 
-#getButton:hover{
+#getButton:hover {
 	background-color: #BF9047; 
 }
 
-#whatIsDiv{
-}
 
-#whatIsP{
-	padding: 3vh;
-}
-
-#picDiv{
+#picDiv {
 	width: 90vw;
-	;
+	text-align: center;
 }
 
 .imageGrid {
 	display: inline-block;
-	margin-bottom: 15vh;
-	width: 90vw;
+	width: 44vw;
 	box-shadow: 0px -5px 5px #888888;
-	transition: opacity 1s;
+	transition: all 1s;
 }
 
-.imageGrid:hover{
+.imageGrid:hover {
 	filter: blur(5px);
 	opacity: 0.8;
+}
+
+#descriptionDiv {
+	display: inline-block;
+	width: 90vw;
+	background-color: #BF9047;
+	box-shadow: 0px 5px 5px #888888;
+	transition: all 1s;
+}
+
+#descriptionDiv:hover {
+	background-color: #630CE8;
+}
+
+.spanContainer {
+	width: 42vw;
+	display: inline-block;
+	margin-top: 2vh;
+	margin-bottom: 2vh;
+}
+
+#reviewDiv {
+	text-align: left;
+	width: 90vw;
+	background-color: #f1f1f1;
+	box-shadow: 0px 5px 5px #888888;
+	padding: 12px;
+	border-style: dashed;
+}
+
+#reviewCenter {
+	text-align: center;
+}
+
+.review {
+	font-size: 24pt;
+	text-align: left;
+	background-color: #d2d2d2;
+	padding: 10px;
+	margin: 6px;
+}
+
+.offer {
+	margin-top: 2vh;
+	font-size: 24pt;
+	text-decoration: underline;
 }
