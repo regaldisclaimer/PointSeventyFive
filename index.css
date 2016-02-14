@@ -7,7 +7,7 @@ html, body {
 	height: 100%;
 	font-family: 'Roboto', sans-serif;
 	font-weight: 300;
-	font-size: 32pt;
+	font-size: 24pt;
 	text-align: center;
 	color: #3B2D38;
 	margin: 0;
@@ -26,14 +26,14 @@ p {
 }
 
 h1 {
-	font-size: 48pt;
+	font-size: 32pt;
 	font-weight: 300;
 	margin-top: 5vh;
 	margin-bottom: 2.5vh;
 }
 
 h2 {
-	font-size: 32pt;
+	font-size: 24pt;
 	font-weight: 300;
 }
 
@@ -138,7 +138,7 @@ h2 {
 }
 
 .review {
-	font-size: 24pt;
+	font-size: 18pt;
 	text-align: left;
 	background-color: #d2d2d2;
 	padding: 10px;
@@ -149,6 +149,6 @@ h2 {
 
 .offer {
 	margin-top: 2vh;
-	font-size: 24pt;
+	font-size: 18pt;
 	text-decoration: underline;
 }
